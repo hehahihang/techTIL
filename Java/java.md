@@ -8,8 +8,9 @@
   - Method Area의 Static 데이터
 3. Mark 되지 않은 객체 즉, 접근할 수 없는 객체는 제거한다.
 
-## GC구조
-### Young Generation(Minor GC)
+## GC(Garbage Collector)
+### GC구조
+#### Young Generation(Minor GC)
 - Eden 영역 1개, Survivor 영역
   * Eden 영역
     - 새롭게 생성된 객체가 위치
@@ -22,6 +23,10 @@
     - 특정 age를 넘어가는 경우 Old Generation으로 이동한다(promotion)
 - Minor GC라고 함
 
-### Old Generation
+#### Old Generation
 - Young 영역보다 크기가 크다.
-- GC가 
+- GC가 적게 발생하고, 시간은 오래걸린다.
+
+### GC종류
+1. Parallel GC
+2. G1 GC
