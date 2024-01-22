@@ -27,6 +27,7 @@
 4) SqlSessionTemplate
   - Mybatis 쿼리문을 수행하는 역할
 
+<img width="933" alt="image" src="https://github.com/hehahihang/techTIL/assets/57223501/35e21a1a-8afd-4b17-a697-0d736f053f3f">
 
 
 
